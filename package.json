@@ -1,0 +1,22 @@
+{
+  "name": "vee-form-validation",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vartemkin/vee-form-validation.git"
+  },
+  "keywords": [
+    "vue", "form", "validate", "validation"
+  ],
+  "author": "Vladislav Artemkin",
+  "license": "ISC",
+    "bugs": {
+    "url": "https://github.com/vartemkin/vee-form-validation/issues"
+  },
+  "homepage": "https://github.com/vartemkin/vee-form-validation#readme"
+}
