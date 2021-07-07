@@ -1,6 +1,6 @@
 // Validate values with rules
 
-class FormValidation {
+class VeeFormValidation {
   constructor (values, rules, errors) {
     this.values = {}
     this.reset(values, rules, errors)
@@ -70,4 +70,4 @@ class FormValidation {
   }
 }
 
-export default Validation // expose the Validation class to other modules
+export default VeeFormValidation // expose the VeeFormValidation class to other modules

@@ -17,7 +17,7 @@
 </template>
 
 <script>
-import FormValidation from 'form-validation'
+import VeeFormValidation from 'vee-form-validation'
 
 export default {
   name: 'login',
@@ -42,7 +42,7 @@ export default {
     }
   },
   created () {
-    this.validation = new FormValidation(this.values, this.rules, this.errors)
+    this.validation = new VeeFormValidation(this.values, this.rules, this.errors)
   },
   methods: {
     async login () {
